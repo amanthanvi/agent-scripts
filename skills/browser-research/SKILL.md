@@ -1,16 +1,26 @@
 ---
-description: Web + browser research loop using built-in web search and/or Chrome DevTools MCP.
-argument-hint: QUESTION="<what to research>" USE_BROWSER=true|false
+name: browser-research
+description: Browser-first research using Chrome DevTools MCP when a real browser is required, otherwise web search.
+triggers:
+  - browser research
+  - investigate with browser
+  - reproduce in browser
 ---
 
-Research: $QUESTION
+# Browser Research (Chrome/Chromium-first)
 
-Rules:
+Use this skill when:
+- the task needs a real browser session (auth, dynamic UI, screenshots), OR
+- you need to reproduce/inspect a real site.
 
--   Prefer built-in web search for docs and up-to-date facts.
--   If USE_BROWSER=true, use Chrome DevTools MCP for anything requiring a real browser session (auth, dynamic UI, screenshots).
--   Summarize with:
-    1. key findings
-    2. relevant links
-    3. recommended next steps / commands
--   Keep output actionable and concise.
+Default approach:
+1) Prefer built-in web search for docs or static info.
+2) If a real browser is required, use Chrome DevTools MCP.
+3) Summarize findings with:
+   - what you did
+   - what you observed
+   - screenshots/URLs if relevant
+   - next steps
+
+Reference:
+- See `browser_research.md` in this directory for additional guidance.
