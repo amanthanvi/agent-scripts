@@ -13,11 +13,11 @@ Generate a handful of “random but structured” prompts and render them via Op
 
 ## Run
 
-From any directory (outputs to `~/GitRepos/tmp/...` when present; else `./tmp/...`):
+From any directory (outputs to `/tmp/...`; else `./tmp/...`):
 
 ```bash
 python3 ~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/skills/openai-image-gen/scripts/gen.py
-open ~/GitRepos/tmp/openai-image-gen-*/index.html
+open /tmp/openai-image-gen-*/index.html
 ```
 
 Useful flags:

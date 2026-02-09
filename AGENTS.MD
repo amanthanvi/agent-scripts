@@ -23,7 +23,7 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 -   Prefer end-to-end verify; if blocked, say what’s missing.
 -   New deps: quick health check (recent releases/commits, adoption).
 -   Slash cmds: `~/.codex/prompts/`.
--   Web: search early; quote exact errors; prefer 2024–2025 sources; fallback Firecrawl (`pnpm mcp:*`) / `mcporter`.
+-   Web: search early; quote exact errors; prefer 2025–2026 sources.
 -   Oracle: run `npx -y @steipete/oracle --help` once/session before first use.
 -   Style: telegraph. Drop filler/grammar. Min tokens (global AGENTS + replies).
 
@@ -107,7 +107,7 @@ Work style: telegraph; noun-phrases ok; drop grammar; min tokens.
 
 ## Tools
 
-Read `~/GitRepos/agent-scripts/tools.md` for the full tool catalog if it exists.
+Read `~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/tools.md` for the full tool catalog if it exists.
 
 ### bird
 
@@ -124,10 +124,6 @@ Read `~/GitRepos/agent-scripts/tools.md` for the full tool catalog if it exists.
 
 -   Screen tools: `~/GitRepos/Peekaboo`. Cmds: `capture`, `see`, `click`, `list`, `tools`, `permissions status`.
 -   Needs Screen Recording + Accessibility. Docs: `~/GitRepos/Peekaboo/docs/commands/`.
-
-### sweetistics
-
--   X analytics app: `~/GitRepos/sweetistics`.
 
 ### committer
 
@@ -150,26 +146,14 @@ Read `~/GitRepos/agent-scripts/tools.md` for the full tool catalog if it exists.
 
 -   Xcode project/workspace helper for managing targets, groups, files, build settings, and assets; run `xcp --help`.
 
-### xcodegen
-
--   Generates Xcode projects from YAML specs; run `xcodegen --help`.
-
 ### lldb
 
 -   Use `lldb` inside tmux to debug native apps; attach to the running app to inspect state.
-
-### axe
-
--   Simulator automation CLI for describing UI (`axe describe-ui --udid …`), tapping (`axe tap --udid … -x … -y …`), typing, and hardware buttons. Use `axe list-simulators` to enumerate devices.
 
 ### oracle
 
 -   Bundle prompt+files for 2nd model. Use when stuck/buggy/review.
 -   Run `npx -y @steipete/oracle --help` once/session (before first use).
-
-### mcporter / iterm / firecrawl / XcodeBuildMCP
-
--   MCP launcher: `npx mcporter <server>` (see `npx mcporter --help`). Common: `iterm`, `firecrawl`, `XcodeBuildMCP`.
 
 ### gh
 

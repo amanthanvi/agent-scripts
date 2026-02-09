@@ -4,7 +4,7 @@ description: >
   Domain/DNS ops across Cloudflare, DNSimple, Namecheap for Aman. Use for onboarding zones to Cloudflare, flipping nameservers, setting redirects (Page Rules/Rulesets/Workers), updating redirect-worker mappings, and verifying DNS/HTTP. Source of truth: ~/GitRepos/manager.
 ---
 
-# Domain/DNS Ops (Peter)
+# Domain/DNS Ops (Aman)
 
 This skill is a thin router: use `~/GitRepos/manager` as truth, run the repo scripts, follow the checklists.
 
@@ -51,6 +51,6 @@ If you changed anything in `~/GitRepos/manager` (docs, worker, scripts, mappings
 
 ## Guardrails
 
-- Don’t touch `.md` lore domains or `steipete.md` unless explicitly asked; check `~/GitRepos/manager/DOMAINS.md`.
+- Don't touch `.md` lore domains unless explicitly asked; check `~/GitRepos/manager/DOMAINS.md`.
 - Confirm registrar before debugging CF “invalid nameservers” (often “wrong registrar”).
 - Prefer reversible steps; verify after each change (NS → DNS → redirect).
