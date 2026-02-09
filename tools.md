@@ -1,11 +1,11 @@
 # Tools Reference
 
-CLI tools available on Peter's machines. Use these for agentic tasks.
+CLI tools available on Aman's machines. Use these for agentic tasks.
 
 ## bird 🐦
 Twitter/X CLI for posting, replying, reading tweets.
 
-**Location**: `~/Projects/bird/bird`
+**Location**: `~/GitRepos/bird/bird`
 
 **Commands**:
 ```bash
@@ -27,7 +27,7 @@ bird check                             # Show credential sources
 ## sonoscli 🔊
 Control Sonos speakers over local network (UPnP/SOAP).
 
-**Location**: `~/Projects/sonoscli/bin/sonos`
+**Location**: `~/GitRepos/sonoscli/bin/sonos`
 
 **Commands**:
 ```bash
@@ -58,7 +58,7 @@ sonos open --name "Room" spotify:track:<id>
 ## peekaboo 👀
 Screenshot, screen inspection, and click automation.
 
-**Location**: `~/Projects/Peekaboo`
+**Location**: `~/GitRepos/Peekaboo`
 
 **Commands**:
 ```bash
@@ -72,14 +72,14 @@ peekaboo permissions status            # Check TCC permissions
 
 **Requirements**: Screen Recording + Accessibility permissions.
 
-**Docs**: `~/Projects/Peekaboo/docs/commands/`
+**Docs**: `~/GitRepos/Peekaboo/docs/commands/`
 
 ---
 
 ## sweetistics 📊
 Twitter/X analytics desktop app (Tauri).
 
-**Location**: `~/Projects/sweetistics`
+**Location**: `~/GitRepos/sweetistics`
 
 Use for deeper Twitter data analysis beyond what `bird` provides.
 
@@ -88,7 +88,7 @@ Use for deeper Twitter data analysis beyond what `bird` provides.
 ## clawdis 📡
 WhatsApp/Telegram messaging gateway and agent interface.
 
-**Location**: `~/Projects/clawdis`
+**Location**: `~/GitRepos/clawdis`
 
 **Commands**:
 ```bash

@@ -7,7 +7,7 @@ set -euo pipefail
 #   APPCAST                  : path to appcast.xml
 #   APP_NAME                 : e.g. CodexBar
 #   ARTIFACT_PREFIX          : e.g. CodexBar-
-#   BUNDLE_ID                : e.g. com.steipete.codexbar
+#   BUNDLE_ID                : e.g. com.amanthanvi.codexbar
 #   VERSION                  : marketing version (e.g. 0.5.6)
 #   BUILD_NUMBER             : build (sparkle:version) if needed
 

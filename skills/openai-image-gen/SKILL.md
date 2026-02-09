@@ -13,19 +13,19 @@ Generate a handful of “random but structured” prompts and render them via Op
 
 ## Run
 
-From any directory (outputs to `~/Projects/tmp/...` when present; else `./tmp/...`):
+From any directory (outputs to `~/GitRepos/tmp/...` when present; else `./tmp/...`):
 
 ```bash
-python3 ~/Projects/agent-scripts/skills/openai-image-gen/scripts/gen.py
-open ~/Projects/tmp/openai-image-gen-*/index.html
+python3 ~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/skills/openai-image-gen/scripts/gen.py
+open ~/GitRepos/tmp/openai-image-gen-*/index.html
 ```
 
 Useful flags:
 
 ```bash
-python3 ~/Projects/agent-scripts/skills/openai-image-gen/scripts/gen.py --count 16 --model gpt-image-1.5
-python3 ~/Projects/agent-scripts/skills/openai-image-gen/scripts/gen.py --prompt "ultra-detailed studio photo of a lobster astronaut" --count 4
-python3 ~/Projects/agent-scripts/skills/openai-image-gen/scripts/gen.py --size 1536x1024 --quality high --out-dir ./out/images
+python3 ~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/skills/openai-image-gen/scripts/gen.py --count 16 --model gpt-image-1.5
+python3 ~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/skills/openai-image-gen/scripts/gen.py --prompt "ultra-detailed studio photo of a lobster astronaut" --count 4
+python3 ~/GitRepos/aman-claude-code-setup/_factory/agent-scripts/skills/openai-image-gen/scripts/gen.py --size 1536x1024 --quality high --out-dir ./out/images
 ```
 
 ## Output
